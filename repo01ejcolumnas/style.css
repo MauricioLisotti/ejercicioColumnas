@@ -1,0 +1,16 @@
+*{
+    background-color: lightsalmon;
+}
+p{
+    column-count: 3;
+    column-rule: solid 2px #554242;
+    column-gap: 40px;
+}
+.title:hover{
+    color: crimson;
+}
+p::selection {
+    background: #fff;
+    color: #ff0000;
+  }
+
